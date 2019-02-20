@@ -17,6 +17,7 @@ npm i wehcat-regenerator-runtime
 ### usage in wechat mini program
 
 ```js
-// app.js 
+
+// app.js  
 const regeneratorRuntime = require('wehcat-regenerator-runtime')
 ```

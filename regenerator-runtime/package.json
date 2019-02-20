@@ -1,0 +1,24 @@
+{
+  "name": "wehcat-regenerator-runtime",
+  "version": "1.0.0",
+  "description": "supprot the wechat Mini Promgram of async/await",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyshao/wechat-regenerator-runtime.git"
+  },
+  "author": "Jonny.Shao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnyshao/wechat-regenerator-runtime/issues"
+  },
+  "keywords": [
+    "wechat-async",
+    "wechat-await",
+    "wecaht-regenerator"
+  ],
+  "homepage": "https://github.com/jonnyshao/wechat-regenerator-runtime#readme"
+}
