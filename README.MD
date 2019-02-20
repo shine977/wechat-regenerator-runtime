@@ -1,11 +1,12 @@
 # wehcat-regenerator-runtime
-    Use `async/await` for wechat mini program projects
+
+Use `async/await` for wechat mini program projects
 
 ### Thanks
 
 > original creator
 
-![facebook-regenerator](https://github.com/facebook/regenerator)
+[facebook-regenerator](https://github.com/facebook/regenerator)
 
 ### installing
 
