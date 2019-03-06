@@ -20,3 +20,6 @@ npm i wehcat-regenerator-runtime
 // app.js 
 const regeneratorRuntime = require('wehcat-regenerator-runtime')
 ```
+### Use with the wefetch request library
+
+[wefetch](https://github.com/jonnyshao/wefetch)
