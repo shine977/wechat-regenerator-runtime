@@ -18,7 +18,22 @@ npm i wehcat-regenerator-runtime
 
 ```js
 // app.js 
-const regeneratorRuntime = require('wehcat-regenerator-runtime')
+const regeneratorRuntime = require('wehcat-regenerator-runtime');
+
+// es6 write
+async onload () {
+    let res = await wf.get('/get')
+    console.log(res)
+    
+    // do something....
+}
+// Es5 write
+onload: async function () {
+  let res = await wf.get('/get')
+      console.log(res)
+      
+      // do something....
+}
 ```
 ### Use with the wefetch request library
 
