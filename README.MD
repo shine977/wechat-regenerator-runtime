@@ -17,15 +17,17 @@ npm i wehcat-regenerator-runtime
 ### usage in wechat mini program
 
 ```js
-// app.js 
-const regeneratorRuntime = require('wehcat-regenerator-runtime');
 
+const regeneratorRuntime = require('wehcat-regenerator-runtime');
+const wf = require('wefetch');
 // es6 write
 async onload () {
     let res = await wf.get('/get')
-    console.log(res)
+    if (res) {
+        // do something....
+    }
     
-    // do something....
+    
 }
 // Es5 write
 onload: async function () {
